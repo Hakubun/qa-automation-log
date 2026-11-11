@@ -24,6 +24,6 @@ let earth;
 
 let visitors;
 
-const STAYTHESAME //use upper case when it will stay the same
+const STAYTHESAME = '#F00';//use upper case when it will stay the same
 
-const evaluate_in_runtime //use lowercase when value get calculated or edit when run the script
+const evaluate_in_runtime = Date.now();//use lowercase when value get calculated or edit when run the script
