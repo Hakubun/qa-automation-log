@@ -1,12 +1,12 @@
 //let is the keyword to create var
 
 let message;
-message = 'hi';
+message = "hi";
 
 console.log(message);
 
 //you can also define it in one line
-let mess = 'hello';
+let mess = "hello";
 
 console.log(mess);
 
@@ -16,7 +16,7 @@ name = "John";
 
 admin = name;
 
-console.log(admin)
+console.log(admin);
 
 //task2
 
@@ -24,6 +24,6 @@ let earth;
 
 let visitors;
 
-const STAYTHESAME = '#F00';//use upper case when it will stay the same
+const STAYTHESAME = "#F00"; //use upper case when it will stay the same
 
-const evaluate_in_runtime = Date.now();//use lowercase when value get calculated or edit when run the script
+const evaluateInRuntime = Date.now(); //use lowercase when value get calculated or edit when run the script
