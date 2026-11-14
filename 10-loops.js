@@ -63,7 +63,7 @@ for (let i = 2; i <= 10; i++) {
 let n = 0;
 
 while (n < 3) {
-  console.log(`number ${i}`);
+  console.log(`number ${n}`);
   n++;
 }
 
