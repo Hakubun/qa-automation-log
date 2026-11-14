@@ -27,7 +27,7 @@ console.log(message);
 
 //task 1
 if ("0") {
-  alert("Hello");
+  console.log("Hello");
 }
 
 //task 2
@@ -43,14 +43,18 @@ let number = prompt("Enter a number", 0);
 
 let message2 =
   number > 0
-    ? console.logg("1")
+    ? console.log("1")
     : number < 0
       ? console.log(" -1")
       : console.log("0");
 
 //task 4
+let a, b;
+a = prompt("Enter a number a", 0);
+b = prompt("Enter a number b", 0);
 let result = a + b < 4 ? "Below" : "Over";
 
+let login = prompt("Enter your login", "");
 let message3 =
   login == "employee"
     ? "Hello"
